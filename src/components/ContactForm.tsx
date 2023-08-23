@@ -1,4 +1,4 @@
-import {useSubmit} from "react-router-dom"
+
 import  Input  from "./Input"
 import Button from "./Button"
 import { useForm } from 'react-hook-form'
@@ -8,7 +8,7 @@ import { chooseName, chooseEmail, chooseAddress, choosePhone } from '../redux/sl
 // Interface
 
 interface ContactFormProps {
-  id: string,
+  id?: string,
   data?: {}
 }
 
